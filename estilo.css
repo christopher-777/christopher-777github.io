@@ -77,3 +77,6 @@ a {
     
     .topnav a { float: none;  width: 100%; }
 }
+
+@media only screen and (max-device-width: 900px) {
+ .container{ width:600px; } }
