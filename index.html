@@ -3,17 +3,19 @@
     <head>
         <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
-    <body>
-        <header>
-            <h1>Pagina lixo eletronico</h1>
-        </header>
-        <div class="header"></div>
+    <body>   
+        <div class="header">
+            <img src="Topo.jpeg" class="ImgTopo">
+        </div>
         <style>
-            body{
-                background-image:url("lixo-eletronico.jpg");
-                background-repeat: no-repeat;
-                background-position:top;
-                }
+             *{box-sizing: border-box;}
+
+.img-container{
+float: left; width: 33.33%; padding: 5px;
+}
+.clearfix::after{
+content: ""; clear: both; display: table;
+}
         </style>
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
@@ -23,22 +25,25 @@
                 <li><a href="Pagina4.html">Página 04</a></li>
                 <li><a href="Pagina5.html">Página 05</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                </ul>
-        </div>
+            </ul>
+
         <div class="row">
             <div class="container">
                 <div class="card">
-                    <h1>Home</h1>
-                    
-                    <img src="img.jpg" alt="lixo.img"
-                    style="width: 1270px; height: 375px;">
-                    <h2>Quem somos?</h2>
-                    <p>O projeto do resíduo eletrônico, é uma iniciativa de conscientização proposta por nós estudantes do IFMT - Campus Cáceres, Christopher Brandão, Luiza De Jesus Medeiros e Luizy Condorysa Pozo Carvalho. Fazemos parte da Instituição  e seguimos em diante com o projeto, também em outros eventos de desenvolvimento científico.</p>
-                    <h2><b>Porque?</b></h2>
-                    <p>Visto que cada vez mais o descarte   do  lixo eletrônico vem sendo mal realizado, acarretando problemas de poluição ambiental que afetam nosso clima, contaminam o solo e a água, iniciamos tal projeto, com o objetivo de conscientizar e contextualizar como ocorre e como deve ser a gestão ambiental adequada dos resíduos eletrônicos em Cáceres-MT.</p>
                     <br>
-                    <p>O projeto visa informar a população sobre os riscos desses produtos que, mal reciclados ou jogados onde não devem, podem causar inúmeros danos ambientais, e com mais informação e conhecimento podemos mudar a realidade, e entender que a sobrevivência dos ecossistemas depende do coletivo.</p>
-
+                    <h2>Quem somos?</h2>
+                    <img src="lixo19.jpeg" style="width: 30%; height: 20%; padding: 50px; float: right;">
+                    <p>Nós, estudantes do IFMT - Campus Cáceres, Christopher Brandão, Luiza De Jesus Medeiros e Luizy Condorysa Pozo Carvalho, estamos comprometidos em fazer a diferença no nosso meio ambiente. Como parte integrante da Instituição, estamos lançando o Projeto de Resíduo Eletrônico, uma iniciativa inovadora de conscientização que visa abordar o problema crescente do descarte inadequado de lixo eletrônico.</p>
+                    <h2><b>Porque?</b></h2>
+                    <p>A cada dia, o volume de resíduos eletrônicos aumenta, trazendo consigo sérios problemas ambientais.
+                     O descarte incorreto desses resíduos polui o ar, contamina o solo e a água, afetando diretamente o nosso clima e a saúde da população. Diante desse cenário, decidimos agir, na cidade de Cáceres - MT.</p>
+                    <p>O objetivo principal do nosso projeto é conscientizar a comunidade sobre a importância da gestão ambiental adequada dos resíduos eletrônicos em Cáceres-MT. Queremos mostrar como o descarte responsável pode fazer a diferença e como podemos trabalhar juntos para um futuro mais sustentável.</p>
+                    <p>Além disso, o projeto também visa:
+                        <p>- Promover a educação ambiental e a conscientização sobre os impactos do lixo eletrônico</p>
+                        <p>- Desenvolver estratégias eficazes para o descarte e reciclagem de resíduos eletrônicos</p>
+                        <p>- Estimular a participação da comunidade em ações de preservação ambiental</p>
+                        <p>- Contribuir para a construção de um modelo de desenvolvimento sustentável em nossa região</p>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -50,12 +55,11 @@
                         <div class="rodape-div-1-coluna">
                             <span>
                                 <b>Entre em contato conosco</b></span>
-                                <p>Instituto Federal de Mato Grosso - Campus Cáceres Prof. Olegário Baldo</p>
-                                <p>Pelo email:
+                                <p1>Instituto Federal de Mato Grosso - Campus Cáceres Prof. Olegário Baldo</p>
+                                <p1>Pelo email:
                                     christopherbds1@gmail.com
                                     j.luiza@estudante.ifmt.edu.br
                                     l.pozo@estudante.ifmt.edu.br</p>
-                                <p>Pelas redes sociais:
-                                    @resíduo_eletrônicoemcaceres</p>
+                                
     </body>
 </html>
